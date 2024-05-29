@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.form-container {
+  position: relative; 
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.photo-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-container h3 {
+  color: #333;
+  margin-bottom: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-container .form-inputs, 
+.form-container .experience-section, 
+.form-container .project-section, 
+.form-container .certification-section {
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea,
+.form-container select {
+  width: calc(100% - 20px); 
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.form-container textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.form-container button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #218838;
 }

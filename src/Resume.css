@@ -1,0 +1,79 @@
+.resume-container {
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 12px;
+  background-color: white;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.resume-container h1 {
+  text-align: center;
+  color: #444;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.resume-section {
+  margin-bottom: 20px;
+}
+
+.resume-section h2 {
+  border-bottom: 2px solid #666;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.resume-section p {
+  margin: 5px 0;
+}
+
+.resume-section strong {
+  color: #222;
+}
+
+.profile-photo {
+  display: block;
+  margin: 10px 0;
+  max-width: 130px;
+  height: auto;
+  border: 4px solid #333;
+}
+
+.experience-section,
+.project-section,
+.certification-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 2px solid #999;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.experience-section p,
+.project-section p,
+.certification-section p {
+  margin: 5px 0;
+}
+
+.declaration-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+}
+
+
+
+
+
+
+
